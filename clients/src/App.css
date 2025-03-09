@@ -1,0 +1,87 @@
+/* Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+/* App Container */
+.app {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background: linear-gradient(135deg, #0f172a, #1e3a8a);
+  color: white;
+}
+
+/* Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  background: #1e293b;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+header h1 {
+  font-size: 26px;
+  font-weight: bold;
+  color: #38bdf8; /* Cyan */
+}
+
+/* Navigation Bar */
+nav {
+  display: flex;
+  align-items: center;
+}
+
+.nav-link {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #38bdf8; /* Cyan */
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #2563eb; /* Yellow */
+}
+
+/* Logout Button */
+.logout-button {
+  background: #e11d48; /* Soft Red */
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background 0.3s ease;
+}
+
+.logout-button:hover {
+  background: #9f1239; /* Darker Red */
+}
+
+/* Main Content */
+main {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 40px;
+  font-size: 22px;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 15px;
+  background: #1e293b;
+  color: #38bdf8; /* Cyan */
+  font-size: 16px;
+  border-top: 2px solid #38bdf8;
+}

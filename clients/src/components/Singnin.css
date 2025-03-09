@@ -1,0 +1,68 @@
+/* Full-screen Centered Form */
+.form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  color: white;
+}
+
+h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #38bdf8; /* Cyan */
+}
+
+/* Form Styling */
+form {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  padding: 30px;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(8px);
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+/* Input Fields */
+input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  background: rgba(255, 255, 255, 0.2);
+  color: white;
+  outline: none;
+}
+
+input::placeholder {
+  color: #d1d5db; /* Light Gray */
+}
+
+/* Button Styling */
+button {
+  padding: 12px;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  background: #38bdf8; /* Cyan */
+  color: #0f172a;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background: #2563eb; /* Vibrant Blue */
+}
+
+/* Error Message */
+.error {
+  color: #ef4444; /* Soft Red */
+  font-size: 14px;
+  margin-bottom: 10px;
+}
